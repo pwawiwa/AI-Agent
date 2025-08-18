@@ -7,7 +7,9 @@ from autogen_ext.models.openai import OpenAIChatCompletionClient
 from autogen_agentchat.ui import Console
 from autogen_agentchat.teams import RoundRobinGroupChat
 from autogen_agentchat.conditions import MaxMessageTermination
+from dotenv import load_dotenv
 
+load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 async def main():
     model_client = OpenAIChatCompletionClient(model="gpt-4o")

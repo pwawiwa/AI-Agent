@@ -1,0 +1,23 @@
+{
+  "name": "ai-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwawiwa/AI-Agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pwawiwa/AI-Agent/issues"
+  },
+  "homepage": "https://github.com/pwawiwa/AI-Agent#readme",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.54.2"
+  }
+}

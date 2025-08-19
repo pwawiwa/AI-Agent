@@ -23,3 +23,15 @@ ENV/
 
 # Logs
 *.log
+
+# Ignore Node.js dependencies
+node_modules/
+ 
+# Ignore Playwright-specific files
+# Note: Playwright downloads browsers into a default location
+# that should be ignored by Git.
+.cache/
+ 
+# Log files and other temporary files
+npm-debug.log
+npm-error.log
